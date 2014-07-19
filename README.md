@@ -1,8 +1,8 @@
 # Puma based HTTP(S) plugin for Fluentd
 
-HTTP input plugin based on [Puma](http://puma.io/)
+HTTP input plugin based on [Puma](http://puma.io/).
 
-This HTTP input plugin supports HTTPS mode.
+This input plugin supports HTTPS mode.
 
 ## Installation
 
