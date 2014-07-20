@@ -59,12 +59,12 @@ class HttpPumaInputTest < Test::Unit::TestCase
     end
   end
 
-  # puma_keypair.pem and cert_puma.pem are from puma's repository
+  # server.key, server.cert and ca-all.pem are from httpi's repository
   def test_json_over_https
     dir = File.dirname(__FILE__)
     d = create_driver(CONFIG + %[
       use_ssl
-      ssl_keys ["#{File.join(dir, 'puma_keypair.pem')}", "#{File.join(dir, 'cert_puma.pem')}"]
+      ssl_keys ["#{File.join(dir, 'server.key')}", "#{File.join(dir, 'server.cert')}"]
     ])
 
     time = Time.parse("2011-01-02 13:14:15 UTC").to_i
