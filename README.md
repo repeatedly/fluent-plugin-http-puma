@@ -35,6 +35,8 @@ Use RubyGems:
 Use `use_ssl` and `ssl_keys`.
 
     <source>
+      type http_puma
+
       use_ssl
       ssl_keys ["/path/to/key", "/path/to/cert"] # ssl_keys is required when use_ssl is true
     </source>
