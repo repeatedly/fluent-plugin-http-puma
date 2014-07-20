@@ -1,6 +1,7 @@
 # Puma based HTTP(S) plugin for Fluentd
 
 HTTP input plugin based on [Puma](http://puma.io/).
+Almost behaviours are same as in_http plugin. Refer to [in_http official document](http://docs.fluentd.org/articles/in_http).
 
 This input plugin supports HTTPS mode.
 
