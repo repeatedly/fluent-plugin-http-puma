@@ -38,4 +38,4 @@ Use `use_ssl` and `ssl_keys`.
       ssl_keys ["/path/to/key", "/path/to/cert"] # ssl_keys is required when use_ssl is true
     </source>
 
-`ssl_keys` are json array which has two elements, 1st is for key file, 2nd is for cert file.
+`ssl_keys` parameter is json array which has two elements, 1st is for key file, 2nd is for cert file.
