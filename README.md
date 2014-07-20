@@ -26,8 +26,8 @@ Use RubyGems:
       min_threads 0
       max_threads 4
       use_ssl
-      ssl_keys /path/to/key,/path/to/cert
-    </match>
+      ssl_keys ["/path/to/key", "/path/to/cert"]
+    </source>
 
 ### HTTPS mode
 
